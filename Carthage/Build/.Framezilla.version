@@ -1,0 +1,19 @@
+{
+  "commitish" : "5.1.2",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "1a3204344d090d6fffce9862f8cf9e73c28c0001aeb47ed685817c79cfb65e03",
+      "name" : "Framezilla",
+      "container" : "Framezilla.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "swiftToolchainVersion" : "5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)",
+      "hash" : "5a53f7e232d73cf936252d6837f134d7ecc3b338c76dee1cb945304840cf7cf2",
+      "name" : "Framezilla",
+      "container" : "Framezilla.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}
