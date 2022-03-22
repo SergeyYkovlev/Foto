@@ -1,0 +1,11 @@
+framework module CollectionViewTools {
+  umbrella header "CollectionViewTools.h"
+
+  export *
+  module * { export * }
+}
+
+module CollectionViewTools.Swift {
+    header "CollectionViewTools-Swift.h"
+    requires objc
+}

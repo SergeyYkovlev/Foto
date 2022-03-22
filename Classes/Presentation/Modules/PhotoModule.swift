@@ -34,7 +34,6 @@ final class PhotoModule {
     private let presenter: PhotoPresenter
 
     init(state: PhotoState = .init()) {
-//        let listItemsFactory = SearchListItemsFactory()
         let presenter = PhotoPresenter(state: state)
         let viewModel = PhotoViewModel()
         let viewController = PhotoViewController(viewModel: viewModel, output: presenter)

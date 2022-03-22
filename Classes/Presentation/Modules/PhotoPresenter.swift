@@ -11,23 +11,31 @@ import CoreLocation
 
 final class PhotoPresenter {
 
-//    let searchService: SearchServiceImpl = .init()
-
      var view: PhotoViewInput?
     weak var output: PhotoModuleOutput?
 
     var state: PhotoState
-//    private let listItemsFactory: SearchListItemsFactory
+    private let networkService = NetworkService()
 
     init(state: PhotoState) {
         self.state = state
-//        self.listItemsFactory = listItemsFactory
     }
 
 }
 
 extension PhotoPresenter: PhotoViewOutput {
-
+    func requestPhoto() {
+        networkService.requestPhotos { [weak self] result in
+            switch result {
+            case .success(let responce):
+                self?.state.photos = responce
+                self?.update(force: false, animated: true)
+            case .failure(_):
+                break
+            }
+        }
+        update(force: true, animated: false)
+    }
 }
 
 extension PhotoPresenter: PhotoModuleInput {

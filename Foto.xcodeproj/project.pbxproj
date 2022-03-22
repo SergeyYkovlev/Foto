@@ -19,7 +19,34 @@
 		0C20408C27E8694800376015 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20408B27E8694800376015 /* Coordinator.swift */; };
 		0C20408E27E8695E00376015 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20408D27E8695E00376015 /* MainCoordinator.swift */; };
 		0C20409027E86C2A00376015 /* ViewUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20408F27E86C2A00376015 /* ViewUpdate.swift */; };
+		0C20409527E8844500376015 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20409427E8844500376015 /* Network.swift */; };
+		0C20409827E884D400376015 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C20409727E884D400376015 /* Photos.swift */; };
+		0C2040A727E9998000376015 /* Framezilla.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2040A427E9998000376015 /* Framezilla.xcframework */; };
+		0C2040A827E9998000376015 /* Framezilla.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2040A427E9998000376015 /* Framezilla.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C2040A927E9998000376015 /* CollectionViewTools.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2040A527E9998000376015 /* CollectionViewTools.xcframework */; };
+		0C2040AA27E9998000376015 /* CollectionViewTools.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2040A527E9998000376015 /* CollectionViewTools.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C2040AB27E9998000376015 /* Kingfisher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2040A627E9998000376015 /* Kingfisher.xcframework */; };
+		0C2040AC27E9998000376015 /* Kingfisher.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2040A627E9998000376015 /* Kingfisher.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C2040B027E99D2D00376015 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2040AF27E99D2D00376015 /* ImageCollectionViewCell.swift */; };
+		0C2040B227E99D4400376015 /* ImageCollectionViewCellItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2040B127E99D4400376015 /* ImageCollectionViewCellItem.swift */; };
+		0C2040B427E99FB700376015 /* PhotoListItemsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2040B327E99FB700376015 /* PhotoListItemsFactory.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C2040AD27E9998000376015 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0C2040AC27E9998000376015 /* Kingfisher.xcframework in Embed Frameworks */,
+				0C2040AA27E9998000376015 /* CollectionViewTools.xcframework in Embed Frameworks */,
+				0C2040A827E9998000376015 /* Framezilla.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C20405D27E864F000376015 /* Foto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foto.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +63,14 @@
 		0C20408B27E8694800376015 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0C20408D27E8695E00376015 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		0C20408F27E86C2A00376015 /* ViewUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUpdate.swift; sourceTree = "<group>"; };
+		0C20409427E8844500376015 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		0C20409727E884D400376015 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		0C2040A427E9998000376015 /* Framezilla.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Framezilla.xcframework; path = Carthage/Build/Framezilla.xcframework; sourceTree = "<group>"; };
+		0C2040A527E9998000376015 /* CollectionViewTools.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CollectionViewTools.xcframework; path = Carthage/Build/CollectionViewTools.xcframework; sourceTree = "<group>"; };
+		0C2040A627E9998000376015 /* Kingfisher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Kingfisher.xcframework; path = Carthage/Build/Kingfisher.xcframework; sourceTree = "<group>"; };
+		0C2040AF27E99D2D00376015 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C2040B127E99D4400376015 /* ImageCollectionViewCellItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCellItem.swift; sourceTree = "<group>"; };
+		0C2040B327E99FB700376015 /* PhotoListItemsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListItemsFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2040AB27E9998000376015 /* Kingfisher.xcframework in Frameworks */,
+				0C2040A927E9998000376015 /* CollectionViewTools.xcframework in Frameworks */,
+				0C2040A727E9998000376015 /* Framezilla.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +95,7 @@
 				0C20407527E8667F00376015 /* Resources */,
 				0C20407627E8669E00376015 /* Classes */,
 				0C20405E27E864F000376015 /* Products */,
+				0C20409927E995AE00376015 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +110,8 @@
 		0C20407427E8666400376015 /* BusinessLogic */ = {
 			isa = PBXGroup;
 			children = (
+				0C20409627E884BD00376015 /* Models */,
+				0C20409327E8842A00376015 /* Services */,
 			);
 			path = BusinessLogic;
 			sourceTree = "<group>";
@@ -161,6 +202,7 @@
 				0C20408527E868A500376015 /* PhotoPresenter.swift */,
 				0C20408727E868B600376015 /* PhotoModule.swift */,
 				0C20408927E868CB00376015 /* PhotoViewModel.swift */,
+				0C2040AE27E99CDE00376015 /* Views */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -181,6 +223,42 @@
 			path = foto;
 			sourceTree = "<group>";
 		};
+		0C20409327E8842A00376015 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0C20409427E8844500376015 /* Network.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0C20409627E884BD00376015 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C20409727E884D400376015 /* Photos.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0C20409927E995AE00376015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C2040A527E9998000376015 /* CollectionViewTools.xcframework */,
+				0C2040A427E9998000376015 /* Framezilla.xcframework */,
+				0C2040A627E9998000376015 /* Kingfisher.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C2040AE27E99CDE00376015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C2040AF27E99D2D00376015 /* ImageCollectionViewCell.swift */,
+				0C2040B127E99D4400376015 /* ImageCollectionViewCellItem.swift */,
+				0C2040B327E99FB700376015 /* PhotoListItemsFactory.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,7 +269,8 @@
 				0C20405927E864F000376015 /* Sources */,
 				0C20405A27E864F000376015 /* Frameworks */,
 				0C20405B27E864F000376015 /* Resources */,
-				0C20409227E8782F00376015 /* SwiftLint */,
+				0C2040AD27E9998000376015 /* Embed Frameworks */,
+				0C2040B527E9B6AD00376015 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -248,7 +327,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C20409227E8782F00376015 /* SwiftLint */ = {
+		0C2040B527E9B6AD00376015 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,12 +355,17 @@
 			files = (
 				0C20408827E868B600376015 /* PhotoModule.swift in Sources */,
 				0C20408A27E868CB00376015 /* PhotoViewModel.swift in Sources */,
+				0C2040B027E99D2D00376015 /* ImageCollectionViewCell.swift in Sources */,
 				0C20408E27E8695E00376015 /* MainCoordinator.swift in Sources */,
+				0C20409827E884D400376015 /* Photos.swift in Sources */,
 				0C20408427E8689A00376015 /* PhotoViewController.swift in Sources */,
 				0C20408627E868A500376015 /* PhotoPresenter.swift in Sources */,
+				0C20409527E8844500376015 /* Network.swift in Sources */,
+				0C2040B427E99FB700376015 /* PhotoListItemsFactory.swift in Sources */,
 				0C20406127E864F000376015 /* AppDelegate.swift in Sources */,
 				0C20409027E86C2A00376015 /* ViewUpdate.swift in Sources */,
 				0C20406327E864F000376015 /* SceneDelegate.swift in Sources */,
+				0C2040B227E99D4400376015 /* ImageCollectionViewCellItem.swift in Sources */,
 				0C20408227E8688E00376015 /* PhotoState.swift in Sources */,
 				0C20408C27E8694800376015 /* Coordinator.swift in Sources */,
 			);

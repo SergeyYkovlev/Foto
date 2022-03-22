@@ -7,6 +7,7 @@
 
 import Foundation
 
-class PhotoState {
+final class PhotoState {
+    var photos: [Photos] = []
 
 }
